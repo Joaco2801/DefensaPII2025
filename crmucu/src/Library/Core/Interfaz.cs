@@ -673,6 +673,49 @@ namespace CrmUcu.Core
             
             return $"Vendedor {vendedor.Nombre} {vendedor.Apellido} creado exitosamente";
         }
+        
+        public string VerVentasDisminuidas()
+        {
+            _historialAcciones.Push("VerVentasDisminuidas");
+
+            if (!EstaLogueado)
+                return " Debes iniciar sesión primero.";
+
+            if (!EsAdmin())
+                return " Solo los administradores pueden ver la Disminución de ventas.";
+
+            var mesActual = DateTime.Now.Month;
+            var mesAnterior = mesActual == 1 ? 12 : mesActual - 1;
+
+            var repoVendedores = RepositorioVendedor.ObtenerInstancia();
+            var vendedores = repoVendedores.ObtenerTodos();
+
+            var vendedoresDisminuidos = vendedores
+                .Where(v =>
+                {
+                    int ventasMesAnterior = v.Ventas
+                        .OfType<Venta>()
+                        .Count(venta => venta.Fecha.Month == mesAnterior);
+
+                    int ventasMesActual = v.Ventas
+                        .OfType<Venta>()
+                        .Count(venta => venta.Fecha.Month == mesActual);
+
+                    return ventasMesActual < ventasMesAnterior;
+                })
+                .ToList();
+
+            if (!vendedoresDisminuidos.Any())
+                return $" No se encontraron vendedores con disminución de ventas entre mes {mesAnterior} y mes {mesActual}.";
+
+            string resultado = $" Vendedores con disminución de ventas entre mes {mesAnterior} y mes {mesActual}:\n\n";
+            foreach (var v in vendedoresDisminuidos)
+            {
+                resultado += $" {v.Nombre} {v.Apellido} (ID: {v.Id})\n";
+            }
+
+            return resultado;
+        }
 
         /// <summary>
         /// Crea un usuario administrador. Solo admins pueden hacerlo.
