@@ -1,0 +1,15 @@
+digraph "CrmUcu.Models.Personas.Vendedor.EliminarCliente"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="CrmUcu.Models.Personas.Vendedor.\lEliminarCliente",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Elimina un cliente propio del repositorio y de la lista del vendedor."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CrmUcu.Repositories.Repositorio\lCliente.BuscarPorId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classCrmUcu_1_1Repositories_1_1RepositorioCliente.html#ae27a4fe88dff3b83f6291b31767459e7",tooltip="Busca un cliente por ID."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CrmUcu.Repositories.Repositorio\lCliente.ObtenerInstancia",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classCrmUcu_1_1Repositories_1_1RepositorioCliente.html#aebe13dcf9b3ec2e2740ce9a2dfb99c56",tooltip="Obtiene la única instancia del repositorio (Singleton)."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="CrmUcu.Repositories.Repositorio\lCliente.RepositorioCliente",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classCrmUcu_1_1Repositories_1_1RepositorioCliente.html#af37e21c045b541f8df8eb1c370287825",tooltip="Constructor privado (Singleton)."];
+}

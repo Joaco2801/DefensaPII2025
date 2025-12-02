@@ -1,0 +1,18 @@
+PROJECT_NAME           = "Sistema CRM - Bot Discord"
+PROJECT_NUMBER         = 1.0
+PROJECT_BRIEF          = "Sistema de gestión de clientes con integración a Discord"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = src/Library src/Program
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HAVE_DOT               = YES
+CLASS_DIAGRAMS         = YES
+UML_LOOK               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+

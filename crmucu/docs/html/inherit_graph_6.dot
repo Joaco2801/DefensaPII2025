@@ -1,0 +1,15 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="CrmUcu.Models.Personas.Persona",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classCrmUcu_1_1Models_1_1Personas_1_1Persona.html",tooltip="Clase base para las personas del sistema (clientes, usuarios, etc.). Contiene los datos comunes como ..."];
+  Node0 -> Node1 [id="edge39_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="CrmUcu.Models.Personas.Usuario",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classCrmUcu_1_1Models_1_1Personas_1_1Usuario.html",tooltip="Clase base para los usuarios del sistema (admins, vendedores, etc.). Extiende Persona y agrega creden..."];
+  Node1 -> Node2 [id="edge40_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CrmUcu.Models.Personas.Admin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classCrmUcu_1_1Models_1_1Personas_1_1Admin.html",tooltip="Representa un usuario administrador del sistema CRM. Puede crear y gestionar otros usuarios."];
+  Node1 -> Node3 [id="edge41_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CrmUcu.Models.Personas.Vendedor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classCrmUcu_1_1Models_1_1Personas_1_1Vendedor.html",tooltip="Representa un vendedor del CRM. Gestiona sus clientes, interacciones, etiquetas y ventas."];
+}

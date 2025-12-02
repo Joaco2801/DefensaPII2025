@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="CrmUcu.Core.Interfaz",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classCrmUcu_1_1Core_1_1Interfaz.html",tooltip="Interfaz principal del sistema CRM. Gestiona la autenticación, operaciones de vendedores,..."];
+}

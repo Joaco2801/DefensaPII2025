@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['calculartotalventas_0',['CalcularTotalVentas',['../classCrmUcu_1_1Models_1_1Personas_1_1Vendedor.html#a2a45f36e8d3c7bc6aafc5a4e18c814ae',1,'CrmUcu::Models::Personas::Vendedor']]],
+  ['cancelar_1',['Cancelar',['../classCrmUcu_1_1Models_1_1Interacciones_1_1Reunion.html#a9526663b3e612c519c5653b1b03e33ca',1,'CrmUcu::Models::Interacciones::Reunion']]],
+  ['cerrarsesion_2',['CerrarSesion',['../classCrmUcu_1_1Core_1_1Interfaz.html#add5b48a5c32db50f889375828d31128a',1,'CrmUcu::Core::Interfaz']]],
+  ['clientessininteraccioncommand_3',['ClientesSinInteraccionCommand',['../classCrmUcu_1_1Commands_1_1ClientesSinInteraccionCommand.html#a8aec11621bdf9f4cdd8faf6a57b05497',1,'CrmUcu::Commands::ClientesSinInteraccionCommand']]],
+  ['commandhandler_4',['CommandHandler',['../classCrmUcu_1_1CommandHandler.html#a46811b082946e404e8c366882ccee1e6',1,'CrmUcu::CommandHandler']]],
+  ['convertircotizacionaventa_5',['ConvertirCotizacionAVenta',['../classCrmUcu_1_1Core_1_1Interfaz.html#a3c346a6fbac59095b0249d430f90ce64',1,'CrmUcu.Core.Interfaz.ConvertirCotizacionAVenta()'],['../classCrmUcu_1_1Models_1_1Personas_1_1Vendedor.html#a9d039fa4f04e02537845eb238a802923',1,'CrmUcu.Models.Personas.Vendedor.ConvertirCotizacionAVenta()']]],
+  ['cotizacion_6',['Cotizacion',['../classCrmUcu_1_1Models_1_1Interacciones_1_1Cotizacion.html#a323fa4e60189b7563541a57fe8d8d492',1,'CrmUcu.Models.Interacciones.Cotizacion.Cotizacion()'],['../classCrmUcu_1_1Models_1_1Interacciones_1_1Cotizacion.html#a14a4896095478c2c1a1feb3f6996f545',1,'CrmUcu.Models.Interacciones.Cotizacion.Cotizacion(int idCliente, DateTime fecha, string descripcion, decimal monto)']]],
+  ['crearadmin_7',['CrearAdmin',['../classCrmUcu_1_1Core_1_1Interfaz.html#ac9fc9e0658dd0824b8ed8c51c4fa16e5',1,'CrmUcu.Core.Interfaz.CrearAdmin()'],['../classCrmUcu_1_1Repositories_1_1RepositorioAdmin.html#acc78f96efcc3ee7dc17ddedabc48b483',1,'CrmUcu.Repositories.RepositorioAdmin.CrearAdmin()']]],
+  ['crearadmincommand_8',['CrearAdminCommand',['../classCrmUcu_1_1Commands_1_1CrearAdminCommand.html#a3560d4961e3ef6ac615bcfe390697538',1,'CrmUcu::Commands::CrearAdminCommand']]],
+  ['crearcliente_9',['CrearCliente',['../classCrmUcu_1_1Models_1_1Personas_1_1Vendedor.html#a0f3ba2f602082c9f8b0d17bc6c97ecf8',1,'CrmUcu.Models.Personas.Vendedor.CrearCliente()'],['../classCrmUcu_1_1Repositories_1_1RepositorioCliente.html#acaf68a316cf8c718c5388102d69536e8',1,'CrmUcu.Repositories.RepositorioCliente.CrearCliente()']]],
+  ['crearclientecommand_10',['CrearClienteCommand',['../classCrmUcu_1_1Commands_1_1CrearClienteCommand.html#a17a8e0f9fa3397217eafa5a38a708b33',1,'CrmUcu::Commands::CrearClienteCommand']]],
+  ['crearclientecomovendedor_11',['CrearClienteComoVendedor',['../classCrmUcu_1_1Core_1_1Interfaz.html#ab0685d2a5c7666b23f2bf1aa0ad03615',1,'CrmUcu::Core::Interfaz']]],
+  ['crearetiqueta_12',['CrearEtiqueta',['../classCrmUcu_1_1Core_1_1Interfaz.html#a692e2a6451477654fcb5c3a5b384c0f5',1,'CrmUcu.Core.Interfaz.CrearEtiqueta()'],['../classCrmUcu_1_1Repositories_1_1RepositorioEtiqueta.html#ad2af0b4627b2de9a0fb98a6b58a8859e',1,'CrmUcu.Repositories.RepositorioEtiqueta.CrearEtiqueta()']]],
+  ['crearetiquetacommand_13',['CrearEtiquetaCommand',['../classCrmUcu_1_1Commands_1_1CrearEtiquetaCommand.html#aa0c712ed7862b98a4cc8baec01b290dd',1,'CrmUcu::Commands::CrearEtiquetaCommand']]],
+  ['crearvendedor_14',['CrearVendedor',['../classCrmUcu_1_1Core_1_1Interfaz.html#a231ead88a5fdd8b4188fe5d6a46f9db2',1,'CrmUcu.Core.Interfaz.CrearVendedor()'],['../classCrmUcu_1_1Repositories_1_1RepositorioVendedor.html#ab770f37da8eb29dd8dd176902641dc5f',1,'CrmUcu.Repositories.RepositorioVendedor.CrearVendedor()']]],
+  ['crearvendedorcommand_15',['CrearVendedorCommand',['../classCrmUcu_1_1Commands_1_1CrearVendedorCommand.html#ab3eb12bec25a1ba65cb13a5c0b1171ba',1,'CrmUcu::Commands::CrearVendedorCommand']]]
+];

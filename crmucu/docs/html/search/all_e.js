@@ -1,0 +1,17 @@
+var searchData=
+[
+  ['obteneradminactual_0',['ObtenerAdminActual',['../classCrmUcu_1_1Core_1_1Interfaz.html#a27a490b2489658cddb24bc3c68dd465b',1,'CrmUcu::Core::Interfaz']]],
+  ['obtenerclienteporid_1',['ObtenerClientePorId',['../classCrmUcu_1_1Core_1_1Interfaz.html#a4da87b7dcdb4c408813defc9f5bdb308',1,'CrmUcu.Core.Interfaz.ObtenerClientePorId()'],['../classCrmUcu_1_1Repositories_1_1RepositorioCliente.html#a68ee3a40210112ff81dace9c2f63d239',1,'CrmUcu.Repositories.RepositorioCliente.ObtenerClientePorId()']]],
+  ['obtenerclientes_2',['ObtenerClientes',['../classCrmUcu_1_1Models_1_1Personas_1_1Vendedor.html#afd7f6fd948ebd53fb5527fd4598b552b',1,'CrmUcu::Models::Personas::Vendedor']]],
+  ['obtenerclientesdevendedor_3',['ObtenerClientesDeVendedor',['../classCrmUcu_1_1Core_1_1Interfaz.html#aaba3c8751f680deeff66658cc07d4a44',1,'CrmUcu::Core::Interfaz']]],
+  ['obtenerclientesdevendedoractual_4',['ObtenerClientesDeVendedorActual',['../classCrmUcu_1_1Core_1_1Interfaz.html#a7ff56aacf36f36b7297566e975bc6fb5',1,'CrmUcu::Core::Interfaz']]],
+  ['obtenerinstancia_5',['ObtenerInstancia',['../classCrmUcu_1_1Repositories_1_1RepositorioAdmin.html#a46dc7d1a7fb34fb4e8e7940c51778c8e',1,'CrmUcu.Repositories.RepositorioAdmin.ObtenerInstancia()'],['../classCrmUcu_1_1Repositories_1_1RepositorioCliente.html#aebe13dcf9b3ec2e2740ce9a2dfb99c56',1,'CrmUcu.Repositories.RepositorioCliente.ObtenerInstancia()'],['../classCrmUcu_1_1Repositories_1_1RepositorioEtiqueta.html#ab3c71d269c84323c904c58b218df65d0',1,'CrmUcu.Repositories.RepositorioEtiqueta.ObtenerInstancia()'],['../classCrmUcu_1_1Repositories_1_1RepositorioVendedor.html#ac533ad69da3f7c7d20e32b615f61dd57',1,'CrmUcu.Repositories.RepositorioVendedor.ObtenerInstancia()']]],
+  ['obtenertodas_6',['ObtenerTodas',['../classCrmUcu_1_1Repositories_1_1RepositorioEtiqueta.html#a8c180e793dd423bbf4cf7d9d89821146',1,'CrmUcu::Repositories::RepositorioEtiqueta']]],
+  ['obtenertodaslasetiquetas_7',['ObtenerTodasLasEtiquetas',['../classCrmUcu_1_1Core_1_1Interfaz.html#a80e45fe9e4612d8af80107daeb35fe79',1,'CrmUcu::Core::Interfaz']]],
+  ['obtenertodos_8',['ObtenerTodos',['../classCrmUcu_1_1Repositories_1_1RepositorioAdmin.html#a524c33e02de4b676c23deafce180e796',1,'CrmUcu.Repositories.RepositorioAdmin.ObtenerTodos()'],['../classCrmUcu_1_1Repositories_1_1RepositorioCliente.html#ac4a994c84082f4707aaa2f3c391d3509',1,'CrmUcu.Repositories.RepositorioCliente.ObtenerTodos()'],['../classCrmUcu_1_1Repositories_1_1Repositorio-1-g.html#a4c79fba001acfd0477e5bbd1cbac51c3',1,'CrmUcu.Repositories.Repositorio-1-g.ObtenerTodos()'],['../classCrmUcu_1_1Repositories_1_1RepositorioVendedor.html#a7db3fad14465fbb281312a7ffe8eff8b',1,'CrmUcu.Repositories.RepositorioVendedor.ObtenerTodos()']]],
+  ['obtenertodoslosadmins_9',['ObtenerTodosLosAdmins',['../classCrmUcu_1_1Core_1_1Interfaz.html#a795a1867af79eb335893df4932e0fab3',1,'CrmUcu::Core::Interfaz']]],
+  ['obtenertodoslosvendedores_10',['ObtenerTodosLosVendedores',['../classCrmUcu_1_1Core_1_1Interfaz.html#aa83ff6e2f58a29db278ff6878f10d1f6',1,'CrmUcu::Core::Interfaz']]],
+  ['obtenertotalventas_11',['ObtenerTotalVentas',['../classCrmUcu_1_1Core_1_1Interfaz.html#ae21ed940bb1c32ce76c0a9a74e4e3115',1,'CrmUcu::Core::Interfaz']]],
+  ['obtenervendedoractual_12',['ObtenerVendedorActual',['../classCrmUcu_1_1Core_1_1Interfaz.html#a5000e3467f34a3497c0c2e64f854b240',1,'CrmUcu::Core::Interfaz']]],
+  ['otro_13',['Otro',['../namespaceCrmUcu_1_1Models_1_1Enums.html#a14308e878cb9f5541a75addf818f9363ac2295235a535ea3e85b7a0e5ab85afb0',1,'CrmUcu::Models::Enums']]]
+];
